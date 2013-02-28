@@ -1,0 +1,42 @@
+*
+{
+  background: pink;
+  color: white;
+}
+
+
+.image
+{
+  width: 250px;
+  height: 250px;
+  float: left;
+  border: 3px solid white;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 5px;
+  opacity: 0.9;
+  -moz-box-shadow:    1px 1px 1px 1px honeydew;
+  -webkit-box-shadow: 1px 1px 1px 1px honeydew;
+  box-shadow:         1px 1px 1px 1px honeydew;
+     -webkit-transform: rotate(3deg); /* Chrome & Safari */
+    -moz-transform: rotate(3deg); /* Firefox */
+    -ms-transform: rotate(3deg); /* IE 9+ */
+    -o-transform: rotate(3deg); /* Opera */
+    transform: rotate(3deg);
+}
+
+input
+{
+  background: black;
+}
+
+button
+{
+  background: turquoise;
+}
+
+#images
+{
+
+
+}

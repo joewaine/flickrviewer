@@ -1,0 +1,15 @@
+%h1 *
+%div
+  = text_field_tag 'duration', nil, :value => 'duration (s)', :autofocus => true
+  %br
+  = text_field_tag 'width', nil, :value => 'width', :autofocus => true
+  %br
+  = text_field_tag 'height', nil, :value => 'height', :autofocus => true
+  %br
+  = text_field_tag 'search', nil, :value => 'search topic', :autofocus => true
+  %br
+  = button_tag 'Search Flickr', :id => 'flickr'
+  %br
+  = button_tag 'clear', :id => 'clear'
+  %br
+#images
