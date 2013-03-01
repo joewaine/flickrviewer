@@ -2,7 +2,12 @@
 {
   background: pink;
   color: white;
+
 }
+
+body
+{margin:30px;
+margin-top: 50px}
 
 
 .image
@@ -35,8 +40,20 @@ button
   background: turquoise;
 }
 
-#images
+
+h1
 {
+  font-size: 200px;
+  margin: 0px;
+  padding: 0px;
+ -webkit-text-stroke-width: 5px;
+ -webkit-text-stroke-color: #0019ff;
+ line-height: 125px;
+}
 
-
+h4
+{
+  font-family: 'helvetica', sans-serif;
+  color: #0019ff;
+  margin-top: 0px;
 }
